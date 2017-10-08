@@ -3,7 +3,7 @@ This a collection of Pure Data abstractions of miscellaneous uses
 
 ## PianoEye
 
-It is a abstraction to display midi information in real time, using a 97 key keyboard. Every channel gets a separate key.
+It is a abstraction to display midi information in real time, using a 97 key keyboard. Every channel gets a separate color.
 
 ## MidiRec (WORK IN PROGRESS!)
 
