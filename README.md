@@ -17,5 +17,5 @@ Future features:
 
 Works like [oscformat] but
 
-  - It deduces the format from the information you're sending.
-  - It already does [list prepend send]->[list trim] so you can send it directly to [netsend -u -b]
+  * It deduces the format from the information you're sending
+  * It already does [list prepend send]->[list trim] so you can send it directly to [netsend -u -b]
