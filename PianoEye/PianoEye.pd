@@ -1,0 +1,814 @@
+#N canvas 436 55 1366 716 10;
+#X obj 180 606 cnv 5 744 48 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 183 609 cnv 9 10 40 empty \$0-midi0 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 196 609 cnv 9 10 40 empty \$0-midi2 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 209 609 cnv 9 10 40 empty \$0-midi4 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 222 609 cnv 9 10 40 empty \$0-midi5 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 235 609 cnv 9 10 40 empty \$0-midi7 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 248 609 cnv 9 10 40 empty \$0-midi9 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 261 609 cnv 9 10 40 empty \$0-midi11 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 190 609 cnv 9 9 25 empty \$0-midi1 empty 20 12 0 14 -1 -262144
+0;
+#X obj 204 609 cnv 9 9 25 empty \$0-midi3 empty 20 12 0 14 -1 -262144
+0;
+#X obj 229 609 cnv 9 9 25 empty \$0-midi6 empty 20 12 0 14 -1 -262144
+0;
+#X obj 242 609 cnv 9 9 25 empty \$0-midi8 empty 20 12 0 14 -1 -262144
+0;
+#X obj 256 609 cnv 9 9 25 empty \$0-midi10 empty 20 12 0 14 -1 -262144
+0;
+#X obj 274 609 cnv 9 10 40 empty \$0-midi12 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 287 609 cnv 9 10 40 empty \$0-midi14 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 300 609 cnv 9 10 40 empty \$0-midi16 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 313 609 cnv 9 10 40 empty \$0-midi17 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 326 609 cnv 9 10 40 empty \$0-midi19 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 339 609 cnv 9 10 40 empty \$0-midi21 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 352 609 cnv 9 10 40 empty \$0-midi23 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 281 609 cnv 9 9 25 empty \$0-midi13 empty 20 12 0 14 -1 -66577
+0;
+#X obj 295 609 cnv 9 9 25 empty \$0-midi15 empty 20 12 0 14 -1 -66577
+0;
+#X obj 320 609 cnv 9 9 25 empty \$0-midi18 empty 20 12 0 14 -1 -66577
+0;
+#X obj 333 609 cnv 9 9 25 empty \$0-midi20 empty 20 12 0 14 -1 -66577
+0;
+#X obj 347 609 cnv 9 9 25 empty \$0-midi22 empty 20 12 0 14 -1 -66577
+0;
+#X obj 365 609 cnv 9 10 40 empty \$0-midi24 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 378 609 cnv 9 10 40 empty \$0-midi26 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 391 609 cnv 9 10 40 empty \$0-midi28 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 404 609 cnv 9 10 40 empty \$0-midi29 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 417 609 cnv 9 10 40 empty \$0-midi31 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 430 609 cnv 9 10 40 empty \$0-midi33 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 443 609 cnv 9 10 40 empty \$0-midi35 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 372 609 cnv 9 9 25 empty \$0-midi25 empty 20 12 0 14 -1 -262144
+0;
+#X obj 386 609 cnv 9 9 25 empty \$0-midi27 empty 20 12 0 14 -1 -262144
+0;
+#X obj 411 609 cnv 9 9 25 empty \$0-midi30 empty 20 12 0 14 -1 -262144
+0;
+#X obj 424 609 cnv 9 9 25 empty \$0-midi32 empty 20 12 0 14 -1 -262144
+0;
+#X obj 438 609 cnv 9 9 25 empty \$0-midi34 empty 20 12 0 14 -1 -262144
+0;
+#X obj 456 609 cnv 9 10 40 empty \$0-midi36 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 469 609 cnv 9 10 40 empty \$0-midi38 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 482 609 cnv 9 10 40 empty \$0-midi40 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 495 609 cnv 9 10 40 empty \$0-midi41 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 508 609 cnv 9 10 40 empty \$0-midi43 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 521 609 cnv 9 10 40 empty \$0-midi45 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 534 609 cnv 9 10 40 empty \$0-midi47 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 463 609 cnv 9 9 25 empty \$0-midi37 empty 20 12 0 14 -1 -262144
+0;
+#X obj 477 609 cnv 9 9 25 empty \$0-midi39 empty 20 12 0 14 -1 -262144
+0;
+#X obj 502 609 cnv 9 9 25 empty \$0-midi42 empty 20 12 0 14 -1 -262144
+0;
+#X obj 515 609 cnv 9 9 25 empty \$0-midi44 empty 20 12 0 14 -1 -262144
+0;
+#X obj 529 609 cnv 9 9 25 empty \$0-midi46 empty 20 12 0 14 -1 -262144
+0;
+#X obj 547 609 cnv 9 10 40 empty \$0-midi48 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 560 609 cnv 9 10 40 empty \$0-midi50 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 573 609 cnv 9 10 40 empty \$0-midi52 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 586 609 cnv 9 10 40 empty \$0-midi53 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 599 609 cnv 9 10 40 empty \$0-midi55 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 612 609 cnv 9 10 40 empty \$0-midi57 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 625 609 cnv 9 10 40 empty \$0-midi59 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 554 609 cnv 9 9 25 empty \$0-midi49 empty 20 12 0 14 -1 -262144
+0;
+#X obj 568 609 cnv 9 9 25 empty \$0-midi51 empty 20 12 0 14 -1 -262144
+0;
+#X obj 593 609 cnv 9 9 25 empty \$0-midi54 empty 20 12 0 14 -1 -262144
+0;
+#X obj 606 609 cnv 9 9 25 empty \$0-midi56 empty 20 12 0 14 -1 -262144
+0;
+#X obj 620 609 cnv 9 9 25 empty \$0-midi58 empty 20 12 0 14 -1 -262144
+0;
+#X obj 638 609 cnv 9 10 40 empty \$0-midi60 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 651 609 cnv 9 10 40 empty \$0-midi62 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 664 609 cnv 9 10 40 empty \$0-midi64 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 677 609 cnv 9 10 40 empty \$0-midi65 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 690 609 cnv 9 10 40 empty \$0-midi67 empty 20 12 0 14 -262144
+-262144 0;
+#X obj 703 609 cnv 9 10 40 empty \$0-midi69 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 716 609 cnv 9 10 40 empty \$0-midi71 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 645 609 cnv 9 9 25 empty \$0-midi61 empty 20 12 0 14 -1 -262144
+0;
+#X obj 659 609 cnv 9 9 25 empty \$0-midi63 empty 20 12 0 14 -1 -262144
+0;
+#X obj 684 609 cnv 9 9 25 empty \$0-midi66 empty 20 12 0 14 -1 -262144
+0;
+#X obj 697 609 cnv 9 9 25 empty \$0-midi68 empty 20 12 0 14 -1 -66577
+0;
+#X obj 711 609 cnv 9 9 25 empty \$0-midi70 empty 20 12 0 14 -1 -66577
+0;
+#X obj 729 609 cnv 9 10 40 empty \$0-midi72 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 742 609 cnv 9 10 40 empty \$0-midi74 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 755 609 cnv 9 10 40 empty \$0-midi76 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 768 609 cnv 9 10 40 empty \$0-midi77 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 781 609 cnv 9 10 40 empty \$0-midi79 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 794 609 cnv 9 10 40 empty \$0-midi81 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 807 609 cnv 9 10 40 empty \$0-midi83 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 736 609 cnv 9 9 25 empty \$0-midi73 empty 20 12 0 14 -1 -66577
+0;
+#X obj 750 609 cnv 9 9 25 empty \$0-midi75 empty 20 12 0 14 -1 -66577
+0;
+#X obj 775 609 cnv 9 9 25 empty \$0-midi78 empty 20 12 0 14 -1 -66577
+0;
+#X obj 788 609 cnv 9 9 25 empty \$0-midi80 empty 20 12 0 14 -1 -66577
+0;
+#X obj 802 609 cnv 9 9 25 empty \$0-midi82 empty 20 12 0 14 -1 -66577
+0;
+#X obj 820 609 cnv 9 10 40 empty \$0-midi84 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 833 609 cnv 9 10 40 empty \$0-midi86 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 846 609 cnv 9 10 40 empty \$0-midi88 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 859 609 cnv 9 10 40 empty \$0-midi89 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 872 609 cnv 9 10 40 empty \$0-midi91 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 885 609 cnv 9 10 40 empty \$0-midi93 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 898 609 cnv 9 10 40 empty \$0-midi95 empty 20 12 0 14 -262144
+-66577 0;
+#X obj 827 609 cnv 9 9 25 empty \$0-midi85 empty 20 12 0 14 -1 -66577
+0;
+#X obj 841 609 cnv 9 9 25 empty \$0-midi87 empty 20 12 0 14 -1 -66577
+0;
+#X obj 866 609 cnv 9 9 25 empty \$0-midi90 empty 20 12 0 14 -1 -66577
+0;
+#X obj 879 609 cnv 9 9 25 empty \$0-midi92 empty 20 12 0 14 -1 -66577
+0;
+#X obj 893 609 cnv 9 9 25 empty \$0-midi94 empty 20 12 0 14 -1 -66577
+0;
+#N canvas 279 256 940 722 setCanvasColorRGB 0;
+#X obj 88 110 inlet;
+#X obj 88 324 bang;
+#X msg 68 379 0;
+#X msg 95 379 1;
+#X obj 137 322 bang;
+#X msg 123 379 0;
+#X msg 151 379 1;
+#X obj 181 467 spigot;
+#X obj 291 437 spigot;
+#X text 84 87 select;
+#X obj 436 136 t b f;
+#X obj 370 214 +;
+#X obj 370 239 t b f;
+#X obj 370 270 +;
+#X obj 14 326 loadbang;
+#X obj 273 510 f;
+#X obj 163 515 f;
+#X obj 293 113 * -65536;
+#X obj 370 114 * -256;
+#X obj 436 114 * -1;
+#X obj 370 301 - 1;
+#X obj 88 189 route back label bang;
+#X obj 226 222 t b b b;
+#X obj 163 563 pack 0 0;
+#X msg 163 585 color \$1 \$2;
+#X obj 163 607 outlet;
+#X obj 293 49 inlet;
+#X obj 293 71 unpack float float float;
+#X msg 501 69 reg green blue;
+#X text 531 48 format;
+#X connect 0 0 21 0;
+#X connect 1 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 8 1;
+#X connect 3 0 7 1;
+#X connect 4 0 5 0;
+#X connect 4 0 6 0;
+#X connect 5 0 7 1;
+#X connect 6 0 8 1;
+#X connect 7 0 16 1;
+#X connect 8 0 15 1;
+#X connect 10 0 11 0;
+#X connect 10 1 11 1;
+#X connect 11 0 12 0;
+#X connect 12 0 13 0;
+#X connect 12 1 13 1;
+#X connect 13 0 20 0;
+#X connect 14 0 3 0;
+#X connect 15 0 23 1;
+#X connect 16 0 23 0;
+#X connect 17 0 13 0;
+#X connect 18 0 11 0;
+#X connect 19 0 10 0;
+#X connect 20 0 8 0;
+#X connect 20 0 7 0;
+#X connect 21 0 1 0;
+#X connect 21 1 4 0;
+#X connect 21 2 22 0;
+#X connect 22 0 16 0;
+#X connect 22 1 15 0;
+#X connect 22 2 20 0;
+#X connect 23 0 24 0;
+#X connect 24 0 25 0;
+#X connect 26 0 27 0;
+#X connect 27 0 17 0;
+#X connect 27 1 18 0;
+#X connect 27 2 19 0;
+#X restore 168 512 pd setCanvasColorRGB;
+#X obj 168 31 inlet;
+#X text 357 12 format;
+#N canvas 343 119 1323 793 getVoiceColor 0;
+#X floatatom 58 53 5 -4 20 0 - - -, f 5;
+#X floatatom 406 81 5 0 0 0 - - -, f 5;
+#X floatatom 452 81 5 0 0 0 - - -, f 5;
+#X obj 406 59 moses 1;
+#N canvas 329 98 996 654 getNoteOnColor 0;
+#X floatatom 104 105 5 0 0 0 - - -, f 5;
+#X floatatom 58 204 5 0 0 0 - - -, f 5;
+#X obj 58 82 moses 1;
+#X floatatom 104 146 5 0 0 0 - - -, f 5;
+#X floatatom 157 147 5 0 0 0 - - -, f 5;
+#X obj 104 124 moses 17;
+#X obj 58 223 print PianoEye => Error on getVoice color. Voice number
+< 0;
+#X obj 157 172 print PianoEye => Error on getVoice color. Voice number
+> 16;
+#X obj 104 305 trigger float float float;
+#X obj 276 336 array get blues;
+#X floatatom 276 358 5 0 0 0 - - -, f 5;
+#X floatatom 190 404 5 0 0 0 - - -, f 5;
+#X floatatom 104 457 5 0 0 0 - - -, f 5;
+#X obj 104 435 array get reds;
+#X obj 190 382 array get greens;
+#X obj 104 489 pack float float float;
+#X obj 104 511 outlet;
+#X obj 58 50 inlet;
+#X text 136 265 from 1:16 to 0:15;
+#X obj 104 266 - 1;
+#X connect 0 0 5 0;
+#X connect 1 0 6 0;
+#X connect 2 0 1 0;
+#X connect 2 1 0 0;
+#X connect 3 0 19 0;
+#X connect 4 0 7 0;
+#X connect 5 0 3 0;
+#X connect 5 1 4 0;
+#X connect 8 0 13 0;
+#X connect 8 1 14 0;
+#X connect 8 2 9 0;
+#X connect 9 0 10 0;
+#X connect 10 0 15 2;
+#X connect 11 0 15 1;
+#X connect 12 0 15 0;
+#X connect 13 0 12 0;
+#X connect 14 0 11 0;
+#X connect 15 0 16 0;
+#X connect 17 0 2 0;
+#X connect 19 0 8 0;
+#X restore 88 440 pd getNoteOnColor;
+#X obj 88 482 outlet;
+#X obj 58 177 pack float float;
+#X msg 58 229 \$2 \$1;
+#X text 110 227 inverts so we can check if it is a note on or note
+off;
+#X obj 58 251 route 0 1;
+#X obj 452 100 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 452 122 1;
+#X text 489 124 note on;
+#X obj 406 100 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 406 152 0;
+#X text 447 155 note off;
+#X text 73 156 voice_number noteOnOrOff;
+#N canvas 0 50 686 491 testVoiceNumber 0;
+#X obj 57 30 inlet;
+#X floatatom 103 75 5 0 0 0 - - -, f 5;
+#X floatatom 57 174 5 0 0 0 - - -, f 5;
+#X obj 57 52 moses 1;
+#X floatatom 103 116 5 0 0 0 - - -, f 5;
+#X floatatom 156 117 5 0 0 0 - - -, f 5;
+#X obj 103 94 moses 17;
+#X obj 156 142 print PianoEye => Error on getVoice color. Voice number
+> 16;
+#X obj 103 141 outlet;
+#X obj 57 193 print PianoEye => Error on getVoice color. Voice number
+< 1;
+#X connect 0 0 3 0;
+#X connect 1 0 6 0;
+#X connect 2 0 9 0;
+#X connect 3 0 2 0;
+#X connect 3 1 1 0;
+#X connect 4 0 8 0;
+#X connect 5 0 7 0;
+#X connect 6 0 4 0;
+#X connect 6 1 5 0;
+#X restore 58 72 pd testVoiceNumber;
+#N canvas 680 178 1039 705 getNoteOffColor 0;
+#X obj 60 128 t f f;
+#X obj 60 151 % 12;
+#X obj 60 173 pack f f;
+#X obj 60 195 route 0 2 4 5 7 9 11;
+#X text 157 288 White Keys;
+#X text 455 286 Black Keys;
+#X obj 293 239 unpack f f;
+#X obj 60 288 trigger bang;
+#X obj 360 288 trigger bang;
+#X msg 60 310 255 255 255;
+#X obj 60 382 outlet;
+#X msg 360 310 0 0 0;
+#X obj 237 24 inlet note_number;
+#X floatatom 237 126 5 0 0 0 - - -, f 5;
+#X obj 60 25 inlet 1-bang_to_output;
+#X obj 60 87 float;
+#X floatatom 130 140 5 0 0 0 - - -, f 5;
+#X obj 60 57 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 0 0 1 0;
+#X connect 0 1 2 1;
+#X connect 1 0 2 0;
+#X connect 1 0 16 0;
+#X connect 2 0 3 0;
+#X connect 3 0 7 0;
+#X connect 3 1 7 0;
+#X connect 3 2 7 0;
+#X connect 3 3 7 0;
+#X connect 3 4 7 0;
+#X connect 3 5 7 0;
+#X connect 3 6 7 0;
+#X connect 3 7 6 0;
+#X connect 6 1 8 0;
+#X connect 7 0 9 0;
+#X connect 8 0 11 0;
+#X connect 9 0 10 0;
+#X connect 11 0 10 0;
+#X connect 12 0 13 0;
+#X connect 13 0 15 1;
+#X connect 14 0 17 0;
+#X connect 15 0 0 0;
+#X connect 17 0 15 0;
+#X restore 58 373 pd getNoteOffColor;
+#X text 136 250 outputs the voice_number;
+#X floatatom 181 353 5 0 0 0 - - -, f 5;
+#X text 228 354 needed to check if the key will;
+#X text 230 375 be set to black or white;
+#X obj 58 31 inlet 1-voice_number;
+#X obj 181 331 inlet 2-note_number;
+#X obj 406 37 inlet 3-velocity;
+#X connect 0 0 17 0;
+#X connect 1 0 13 0;
+#X connect 2 0 10 0;
+#X connect 3 0 1 0;
+#X connect 3 1 2 0;
+#X connect 4 0 5 0;
+#X connect 6 0 7 0;
+#X connect 7 0 9 0;
+#X connect 9 0 18 0;
+#X connect 9 1 4 0;
+#X connect 10 0 11 0;
+#X connect 11 0 6 1;
+#X connect 13 0 14 0;
+#X connect 14 0 6 1;
+#X connect 17 0 6 0;
+#X connect 18 0 5 0;
+#X connect 20 0 18 1;
+#X connect 23 0 0 0;
+#X connect 24 0 20 0;
+#X connect 25 0 3 0;
+#X restore 168 441 pd getVoiceColor;
+#X msg 278 38 note_number velocity voice_number;
+#X text 312 69 same as output from;
+#X obj 468 70 notein;
+#X msg 168 126 \$3 \$1 \$2;
+#X obj 168 148 unpack float float float;
+#X floatatom 168 250 5 0 0 0 - - -, f 5;
+#X floatatom 250 285 5 0 0 0 - - -, f 5;
+#X floatatom 333 254 5 0 0 0 - - -, f 5;
+#X text 363 146 re-order them to a more convenient order;
+#X msg 395 178 voice_number note_number velocity;
+#X obj 250 351 pack f \$0;
+#X symbolatom 250 395 14 0 0 0 - - -, f 14;
+#X msg 250 373 symbol \$2-midi\$1;
+#X obj 227 552 send;
+#X obj 168 483 trigger bang anything;
+#X obj 49 25 notein;
+#X floatatom 49 77 5 0 0 0 - - -, f 5;
+#X floatatom 99 84 5 0 0 0 - - -, f 5;
+#X floatatom 144 77 5 0 0 0 - - -, f 5;
+#X obj 49 126 pack f f f;
+#N canvas 1152 122 681 520 voiceColors 0;
+#X obj 32 42 array define -k reds 16;
+#A 0 252 128 0 0 128 180 79 185 136 153 170 187 204 221 238 255;
+#X obj 32 62 array define -k greens 16;
+#A 0 128 0 64 64 0 24 159 135 119 102 85 68 51 34 17 0;
+#X obj 32 82 array define -k blues 16;
+#A 0 0 64 128 0 0 130 45 19 190 190 190 190 190 190 190 190;
+#N canvas 549 75 875 642 defaultColors 0;
+#X obj 77 31 inlet;
+#N canvas 0 50 637 486 setReds 0;
+#X obj 62 116 until;
+#X msg 62 91 16;
+#X obj 62 38 inlet;
+#X obj 62 60 trigger bang bang;
+#X obj 62 148 f;
+#X obj 62 170 trigger float float;
+#X obj 62 382 array set reds;
+#X obj 43 25 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 110 148 + 1;
+#X msg 178 90 0;
+#X obj 62 232 trigger float float;
+#X floatatom 192 255 5 0 0 0 - - -, f 5;
+#X text 85 204 set the array;
+#X floatatom 62 254 5 0 0 0 - - -, f 5;
+#X floatatom 62 325 5 0 0 0 - - -, f 5;
+#X obj 62 303 * 17;
+#X text 102 302 255/15 (15 instead of 16 because 15 is maximum value)
+;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 3 1 9 0;
+#X connect 4 0 5 0;
+#X connect 5 0 10 0;
+#X connect 5 1 8 0;
+#X connect 7 0 3 0;
+#X connect 8 0 4 1;
+#X connect 9 0 4 1;
+#X connect 10 0 13 0;
+#X connect 10 1 11 0;
+#X connect 11 0 6 1;
+#X connect 13 0 15 0;
+#X connect 14 0 6 0;
+#X connect 15 0 14 0;
+#X restore 370 137 pd setReds;
+#N canvas 0 50 637 486 setGreens 0;
+#X obj 62 116 until;
+#X msg 62 91 16;
+#X obj 62 38 inlet;
+#X obj 62 60 trigger bang bang;
+#X obj 62 148 f;
+#X obj 62 170 trigger float float;
+#X obj 110 148 + 1;
+#X msg 178 90 0;
+#X obj 62 232 trigger float float;
+#X floatatom 192 255 5 0 0 0 - - -, f 5;
+#X text 85 204 set the array;
+#X floatatom 62 254 5 0 0 0 - - -, f 5;
+#X text 102 302 255/15 (15 instead of 16 because 15 is maximum value)
+;
+#X obj 62 402 array set greens;
+#X obj 62 303 * -17;
+#X obj 62 325 + 255;
+#X obj 109 360 print;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 3 1 7 0;
+#X connect 4 0 5 0;
+#X connect 5 0 8 0;
+#X connect 5 1 6 0;
+#X connect 6 0 4 1;
+#X connect 7 0 4 1;
+#X connect 8 0 11 0;
+#X connect 8 1 9 0;
+#X connect 9 0 13 1;
+#X connect 11 0 14 0;
+#X connect 14 0 15 0;
+#X connect 15 0 13 0;
+#X connect 15 0 16 0;
+#X restore 380 113 pd setGreens;
+#N canvas 0 50 637 486 setBlues 0;
+#X obj 62 116 until;
+#X msg 62 91 16;
+#X obj 62 38 inlet;
+#X obj 62 60 trigger bang bang;
+#X obj 62 148 f;
+#X obj 62 170 trigger float float;
+#X obj 43 25 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 110 148 + 1;
+#X msg 178 90 0;
+#X obj 62 232 trigger float float;
+#X floatatom 192 255 5 0 0 0 - - -, f 5;
+#X text 85 204 set the array;
+#X floatatom 62 254 5 0 0 0 - - -, f 5;
+#X floatatom 62 325 5 0 0 0 - - -, f 5;
+#X obj 62 303 * 17;
+#X text 102 302 255/15 (15 instead of 16 because 15 is maximum value)
+;
+#X obj 62 402 array set blues;
+#X obj 62 344 * 0;
+#X obj 62 366 + 190;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 3 1 8 0;
+#X connect 4 0 5 0;
+#X connect 5 0 9 0;
+#X connect 5 1 7 0;
+#X connect 6 0 3 0;
+#X connect 7 0 4 1;
+#X connect 8 0 4 1;
+#X connect 9 0 12 0;
+#X connect 9 1 10 0;
+#X connect 10 0 16 1;
+#X connect 12 0 14 0;
+#X connect 13 0 17 0;
+#X connect 14 0 13 0;
+#X connect 17 0 18 0;
+#X connect 18 0 16 0;
+#X restore 390 91 pd setBlues;
+#N canvas 471 139 876 542 setColor2 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 82 80 128;
+#X msg 144 81 0;
+#X msg 206 81 64;
+#X msg 268 81 1;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 2 1 6 0;
+#X connect 2 2 7 0;
+#X connect 2 3 8 0;
+#X connect 5 0 0 0;
+#X connect 6 0 3 0;
+#X connect 7 0 4 0;
+#X connect 8 0 0 1;
+#X connect 8 0 3 1;
+#X connect 8 0 4 1;
+#X restore 90 354 pd setColor2;
+#N canvas 471 139 876 542 setColor4 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 206 81 0;
+#X msg 82 80 0;
+#X msg 144 81 64;
+#X msg 268 81 3;
+#X connect 1 0 2 0;
+#X connect 2 0 6 0;
+#X connect 2 1 7 0;
+#X connect 2 2 5 0;
+#X connect 2 3 8 0;
+#X connect 5 0 4 0;
+#X connect 6 0 0 0;
+#X connect 7 0 3 0;
+#X connect 8 0 0 1;
+#X connect 8 0 3 1;
+#X connect 8 0 4 1;
+#X restore 108 297 pd setColor4;
+#N canvas 471 139 876 542 setColor5 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 206 81 0;
+#X msg 82 80 128;
+#X msg 144 81 0;
+#X msg 268 81 4;
+#X connect 1 0 2 0;
+#X connect 2 0 6 0;
+#X connect 2 1 7 0;
+#X connect 2 2 5 0;
+#X connect 2 3 8 0;
+#X connect 5 0 4 0;
+#X connect 6 0 0 0;
+#X connect 7 0 3 0;
+#X connect 8 0 0 1;
+#X connect 8 0 3 1;
+#X connect 8 0 4 1;
+#X restore 118 272 pd setColor5;
+#N canvas 471 139 876 542 setColor6 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 268 81 5;
+#X msg 82 80 180;
+#X msg 144 81 24;
+#X msg 206 81 130;
+#X connect 1 0 2 0;
+#X connect 2 0 6 0;
+#X connect 2 1 7 0;
+#X connect 2 2 8 0;
+#X connect 2 3 5 0;
+#X connect 5 0 0 1;
+#X connect 5 0 3 1;
+#X connect 5 0 4 1;
+#X connect 6 0 0 0;
+#X connect 7 0 3 0;
+#X connect 8 0 4 0;
+#X restore 128 242 pd setColor6;
+#N canvas 471 139 876 542 setColor7 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 82 80 79;
+#X msg 144 81 159;
+#X msg 206 81 45;
+#X msg 267 80 6;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 2 1 6 0;
+#X connect 2 2 7 0;
+#X connect 2 3 8 0;
+#X connect 5 0 0 0;
+#X connect 6 0 3 0;
+#X connect 7 0 4 0;
+#X connect 8 0 0 1;
+#X connect 8 0 3 1;
+#X connect 8 0 4 1;
+#X restore 138 212 pd setColor7;
+#N canvas 471 139 876 542 setColor8 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 267 80 7;
+#X msg 82 80 185;
+#X msg 144 81 135;
+#X msg 206 81 19;
+#X connect 1 0 2 0;
+#X connect 2 0 6 0;
+#X connect 2 1 7 0;
+#X connect 2 2 8 0;
+#X connect 2 3 5 0;
+#X connect 5 0 0 1;
+#X connect 5 0 3 1;
+#X connect 5 0 4 1;
+#X connect 6 0 0 0;
+#X connect 7 0 3 0;
+#X connect 8 0 4 0;
+#X restore 148 189 pd setColor8;
+#X obj 77 113 t b;
+#X obj 77 53 trigger bang bang;
+#X obj 271 56 t b;
+#X obj 57 18 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#N canvas 471 139 876 542 setColor1 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 82 80 252;
+#X msg 144 81 128;
+#X msg 206 81 0;
+#X msg 268 81 0;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 2 1 6 0;
+#X connect 2 2 7 0;
+#X connect 2 3 8 0;
+#X connect 5 0 0 0;
+#X connect 6 0 3 0;
+#X connect 7 0 4 0;
+#X connect 8 0 0 1;
+#X connect 8 0 3 1;
+#X connect 8 0 4 1;
+#X restore 73 388 pd setColor1;
+#N canvas 828 394 876 542 setColor3 0;
+#X obj 82 172 array set reds;
+#X obj 82 24 inlet;
+#X msg 82 80 0;
+#X msg 144 81 64;
+#X msg 206 81 128;
+#X obj 82 46 trigger bang bang bang bang;
+#X obj 193 172 array set greens;
+#X obj 318 172 array set blues;
+#X msg 268 81 2;
+#X connect 1 0 5 0;
+#X connect 2 0 0 0;
+#X connect 3 0 6 0;
+#X connect 4 0 7 0;
+#X connect 5 0 2 0;
+#X connect 5 1 3 0;
+#X connect 5 2 4 0;
+#X connect 5 3 8 0;
+#X connect 8 0 0 1;
+#X connect 8 0 6 1;
+#X connect 8 0 7 1;
+#X restore 136 327 pd setColor3;
+#X connect 0 0 11 0;
+#X connect 10 0 4 0;
+#X connect 10 0 5 0;
+#X connect 10 0 6 0;
+#X connect 10 0 7 0;
+#X connect 10 0 8 0;
+#X connect 10 0 9 0;
+#X connect 10 0 15 0;
+#X connect 10 0 14 0;
+#X connect 11 0 10 0;
+#X connect 11 1 12 0;
+#X connect 12 0 3 0;
+#X connect 12 0 2 0;
+#X connect 12 0 1 0;
+#X connect 13 0 11 0;
+#X restore 269 63 pd defaultColors;
+#X obj 269 26 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 194 130 5 0 15 0 - - -, f 5;
+#X floatatom 186 217 5 0 0 0 - - -, f 5;
+#X obj 186 195 array get reds;
+#X msg 258 143 1;
+#X msg 330 194 symbol blues;
+#X msg 327 163 symbol greens;
+#X msg 320 139 symbol reds;
+#X connect 4 0 3 0;
+#X connect 7 0 6 0;
+#X connect 8 0 7 1;
+#X connect 9 0 7 2;
+#X connect 10 0 7 2;
+#X connect 11 0 7 2;
+#X restore 752 33 pd voiceColors;
+#X text 47 167 test with it;
+#X text 356 393 which canvas;
+#X text 292 313 we are not expecting midi note 0 right?;
+#X obj 250 314 - 12;
+#X obj 911 609 cnv 9 10 40 empty \$0-midi96 empty 20 12 0 14 -262144
+-66577 0;
+#X connect 97 0 114 0;
+#X connect 98 0 104 0;
+#X connect 100 0 115 0;
+#X connect 104 0 105 0;
+#X connect 105 0 106 0;
+#X connect 105 1 107 0;
+#X connect 105 2 108 0;
+#X connect 106 0 100 0;
+#X connect 107 0 100 1;
+#X connect 107 0 125 0;
+#X connect 108 0 100 2;
+#X connect 111 0 113 0;
+#X connect 112 0 114 1;
+#X connect 113 0 112 0;
+#X connect 115 0 97 0;
+#X connect 115 1 97 1;
+#X connect 116 0 117 0;
+#X connect 116 1 118 0;
+#X connect 116 2 119 0;
+#X connect 117 0 120 0;
+#X connect 118 0 120 1;
+#X connect 119 0 120 2;
+#X connect 125 0 111 0;
+#X coords 0 -1 1 1 754 60 1 175 600;
